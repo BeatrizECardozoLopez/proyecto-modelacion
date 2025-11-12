@@ -175,16 +175,16 @@ y_min, y_max = 50, 55
 def costo_h(y):
     """Costo horizontal (calles)"""
     if y == 51:
-        return 10  # Calle 51 con actividad comercial
+        return 10  
     else:
-        return 5   # Otras calles
+        return 5  
 
 def costo_v(x):
     """Costo vertical (carreras)"""
     if x in [11, 12, 13]:
-        return 7  # Carreras 11, 12, 13 en mal estado
+        return 7  
     else:
-        return 5  # Otras carreras
+        return 5 
 
 def expandir_limites(carrera, calle):
     """Expande los límites si es necesario para incluir nuevas coordenadas"""
